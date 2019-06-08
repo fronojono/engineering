@@ -1,0 +1,37 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.wrapVideo {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.list-video-item {
+  display: flex;
+  justify-content: stretch;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.list-video-item-details {
+  flex-grow: 1;
+  padding: 10px;
+}
+.list-video-item-details > h3 {
+  text-align: left;
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  white-space: normal;
+}
+.searchHeader .inputText {
+  margin: auto;
+  width: 50%;
+  border: 1px solid;
+  padding: 10px;
+  text-align: center;
+}
+
+.Details-Video > h2 {
+  text-align: left;
+}
